@@ -41,15 +41,19 @@ Code build:
 CodeDeploy:
     It is demployment service that automates the deployment to various compute services like AWS EC2 instance, AWS lambda serverless functions, Amazon ECS. It is a managed 
     services by the AWS provider. 
-            Create Application ---> Create Deployment Grop
-             |_ Application Name       |_ DG name
-             |_ Compute Platform       |_ service role
-                                       |_ codedeploy service role
-                                       |_ Deployment type
-                                       |_ Environment Configuration
-                                       |_ Agent configuration with AWS Systems Manager 
-                                       |_ Deployment settings
-                                       |_Load balancer
+            1. Create Application 
+                 |_ Application Name       
+                 |_ Compute Platform       
+                                       
+            2. Create Deployment Grop
+                    |_ DG name
+                    |_ service role
+                    |_ codedeploy service role
+                    |_ Deployment type
+                    |_ Environment Configuration
+                    |_ Agent configuration with AWS Systems Manager 
+                    |_ Deployment settings
+                    |_Load balancer
             
     Deployment configurations: Based on configuration the application deployment can be compute on ec2, onpremises, lambda, lineary, canary 
     
