@@ -68,10 +68,27 @@ CodePipeline:
     Is a fully managed, continuous delivery service that automates the release process for software and infrastructure updates
     CodePipeline uses a pipeline structure composed of stages and actions to define and automate your software release process.
     Stages:
-    |_ Source
-    |_ Build 
-    |_ Test
-    |_ Deploy
+        |_ Source
+        |_ Build 
+        |_ Test
+        |_ Deploy
+
+    Create a pipeline:
+        Category
+            |__ Deployment
+            |__ Continuous Integration
+            |__ Automation
+            |__ Build Custom pipeline ** go with the custom pipeline
+                        |__Name of the pipeline
+                        |__ Source
+                        |__ Build
+                        |__ Deploy
+
+                        
+
+        
+        
+    
 
 
 
