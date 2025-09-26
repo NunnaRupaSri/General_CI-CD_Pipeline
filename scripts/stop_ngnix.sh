@@ -1,0 +1,2 @@
+#
+service stop nginx
